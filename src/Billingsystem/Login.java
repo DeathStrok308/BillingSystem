@@ -145,8 +145,7 @@ Database db = new Database();
     }// </editor-fold>//GEN-END:initComponents
 
     private String getPass(){
-        char[] tpass = Password.getPassword();
-        String pass = new String(tpass);
+        String pass = new String(Password.getPassword());
         return pass;
     }
     
